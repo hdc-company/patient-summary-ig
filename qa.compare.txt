@@ -5,7 +5,8 @@ err = 3, warn = 4, info = 0
 $--
 Generated $--. FHIR version $-- for fsh.ig#$-- (canonical = http://ig.v8-lust.net/fsh-ig)
  Build Errors : 1 / 4 / 0
- C:\solution\workspace\fsh-generated\resources\CapabilityStatement-ExampleCapabilityStatement : 0 / 0 / 1
+ C:\solution\workspace\fsh-generated\resources\CapabilityStatement-MedicationSummary : 0 / 0 / 1
+ C:\solution\workspace\fsh-generated\resources\CapabilityStatement-PatientSummary : 0 / 0 / 1
  C:\solution\workspace\fsh-generated\resources\ImplementationGuide-fsh.ig : 1 / 0 / 1
  C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire : 2 / 0 / 1
 </table>
@@ -15,7 +16,8 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated\resources\CapabilityStatement-ExampleCapabilityStatement.json ==
+== fsh-generated\resources\CapabilityStatement-MedicationSummary.json ==
+== fsh-generated\resources\CapabilityStatement-PatientSummary.json ==
 == fsh-generated\resources\ImplementationGuide-fsh.ig.json ==
 ERROR: ImplementationGuide/fsh.ig: ImplementationGuide.dependsOn[2].uri: Canonical URL 'http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline' does not resolve
 == fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire.json ==

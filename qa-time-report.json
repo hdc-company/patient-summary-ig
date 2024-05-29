@@ -1,96 +1,132 @@
 {
-  "date" : "Tue, 28 May, 2024 20:27:05 -0700",
+  "date" : "Tue, 28 May, 2024 21:17:26 -0700",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "\\fsh-generated\\resources\\ImplementationGuide-fsh.ig.json",
-      "size" : 1806,
+      "size" : 2013,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 1316,
+          "start" : 1310,
           "length" : 47
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 1316,
-          "length" : 1
+          "start" : 1310,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1316,
-          "length" : 79
+          "start" : 1310,
+          "length" : 94
         },
         {
           "activity" : "validate",
-          "start" : 1322,
-          "length" : 1055
+          "start" : 1316,
+          "length" : 1142
         },
         {
-          "activity" : "scanForUsageStats",
-          "start" : 1323,
+          "activity" : "checkConformanceResources",
+          "start" : 1317,
+          "length" : 11
+        },
+        {
+          "activity" : "checkConformanceResources2",
+          "start" : 1317,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 1328,
-          "length" : 498
+          "start" : 1327,
+          "length" : 867
         },
         {
           "activity" : "generate2",
-          "start" : 1340,
-          "length" : 120
+          "start" : 1342,
+          "length" : 134
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 1426,
+          "start" : 1421,
           "length" : 16
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement.json",
-      "size" : 2217,
+      "name" : "fsh-generated/resources/CapabilityStatement-MedicationSummary.json",
+      "size" : 2128,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 1313,
-          "length" : 31
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 1316,
-          "length" : 1
+          "start" : 1306,
+          "length" : 16
         },
         {
           "activity" : "loadInfo",
-          "start" : 1316,
-          "length" : 8
+          "start" : 1310,
+          "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 1316,
-          "length" : 38
+          "start" : 1310,
+          "length" : 41
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1316,
+          "start" : 1310,
           "length" : 78
         },
         {
           "activity" : "validate",
-          "start" : 1317,
-          "length" : 5087
+          "start" : 1310,
+          "length" : 5534
         },
         {
           "activity" : "generate1",
           "start" : 1328,
-          "length" : 437
+          "length" : 500
         },
         {
           "activity" : "generate2",
-          "start" : 1341,
-          "length" : 140
+          "start" : 1342,
+          "length" : 141
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CapabilityStatement-PatientSummary.json",
+      "size" : 2093,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 1306,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 1310,
+          "length" : 32
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 1310,
+          "length" : 31
+        },
+        {
+          "activity" : "validate",
+          "start" : 1316,
+          "length" : 62
+        },
+        {
+          "activity" : "generate1",
+          "start" : 1329,
+          "length" : 453
+        },
+        {
+          "activity" : "generate2",
+          "start" : 1342,
+          "length" : 62
         }
       ]
     },
@@ -100,33 +136,33 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 1313,
-          "length" : 16
+          "start" : 1306,
+          "length" : 15
         },
         {
           "activity" : "load",
-          "start" : 1316,
-          "length" : 31
+          "start" : 1310,
+          "length" : 46
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1316,
-          "length" : 47
+          "start" : 1310,
+          "length" : 63
         },
         {
           "activity" : "validate",
-          "start" : 1323,
-          "length" : 16
+          "start" : 1317,
+          "length" : 15
         },
         {
           "activity" : "generate1",
           "start" : 1329,
-          "length" : 329
+          "length" : 1094
         },
         {
           "activity" : "generate2",
-          "start" : 1341,
-          "length" : 78
+          "start" : 1342,
+          "length" : 63
         }
       ]
     }

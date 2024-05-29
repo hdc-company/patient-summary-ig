@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NewRepublicFHIRIG"] ; # 
   fhir:title [ fhir:v "New Republic FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-28T20:27:05-07:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-28T21:17:26-07:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR New Republic"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR New Republic" ] ;
@@ -523,11 +523,23 @@
          fhir:value [ fhir:v "CapabilityStatement" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://ig.v8-lust.net/fsh-ig/CapabilityStatement/ExampleCapabilityStatement> ;
-         fhir:reference [ fhir:v "CapabilityStatement/ExampleCapabilityStatement" ]
+         fhir:link <http://ig.v8-lust.net/fsh-ig/CapabilityStatement/MedicationSummary> ;
+         fhir:reference [ fhir:v "CapabilityStatement/MedicationSummary" ]
        ] ;
-       fhir:name [ fhir:v "Health New Republic FHIR Server Example Capability Statement" ] ;
+       fhir:name [ fhir:v "FHIR Server Medication Summary" ] ;
        fhir:description [ fhir:v "Search for Prescribed Medication" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CapabilityStatement" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ig.v8-lust.net/fsh-ig/CapabilityStatement/PatientSummary> ;
+         fhir:reference [ fhir:v "CapabilityStatement/PatientSummary" ]
+       ] ;
+       fhir:name [ fhir:v "FHIR Server Patient Summary" ] ;
+       fhir:description [ fhir:v "Search for Prescribed Patient" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

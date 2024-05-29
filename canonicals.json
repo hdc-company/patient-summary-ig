@@ -1,10 +1,17 @@
 [
   {
-    "id" : "ExampleCapabilityStatement",
+    "id" : "MedicationSummary",
     "type" : "CapabilityStatement",
-    "url" : "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/ExampleCapabilityStatement",
+    "url" : "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/MedicationSummary",
     "version" : "0.1.0",
-    "name" : "ExampleCapabilityStatement"
+    "name" : "MedicationSummary"
+  },
+  {
+    "id" : "PatientSummary",
+    "type" : "CapabilityStatement",
+    "url" : "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/PatientSummary",
+    "version" : "0.1.0",
+    "name" : "PatientSummary"
   },
   {
     "id" : "fsh.ig",

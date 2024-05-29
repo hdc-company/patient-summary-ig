@@ -10,7 +10,7 @@
   "name" : "NewRepublicFHIRIG",
   "title" : "New Republic FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2024-05-28T20:27:05-07:00",
+  "date" : "2024-05-28T21:17:26-07:00",
   "publisher" : "FHIR New Republic",
   "contact" : [{
     "name" : "FHIR New Republic",
@@ -609,10 +609,22 @@
         "valueString" : "CapabilityStatement"
       }],
       "reference" : {
-        "reference" : "CapabilityStatement/ExampleCapabilityStatement"
+        "reference" : "CapabilityStatement/MedicationSummary"
       },
-      "name" : "Health New Republic FHIR Server Example Capability Statement",
+      "name" : "FHIR Server Medication Summary",
       "description" : "Search for Prescribed Medication",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CapabilityStatement"
+      }],
+      "reference" : {
+        "reference" : "CapabilityStatement/PatientSummary"
+      },
+      "name" : "FHIR Server Patient Summary",
+      "description" : "Search for Prescribed Patient",
       "exampleBoolean" : false
     },
     {

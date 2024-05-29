@@ -1,7 +1,7 @@
 ﻿{
   "openapi": "3.0.2",
   "info": {
-    "title": "Health New Republic FHIR Server Example Capability Statement",
+    "title": "FHIR Server Medication Summary",
     "description": "Search for Prescribed Medication",
     "license": {
       "name": "Creative Commons Zero v1.0 Universal",
@@ -15,12 +15,12 @@
   },
   "servers": [
     {
-      "url": "https://api.mdr.mwnz.org",
-      "description": "The Care In The Community Manaaki Nga Tahi FHIR API"
+      "url": "https://ig.mwnz.org",
+      "description": "Canonical Based Examples"
     }
   ],
   "externalDocs": {
-    "url": "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/ExampleCapabilityStatement",
+    "url": "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/MedicationSummary",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {
