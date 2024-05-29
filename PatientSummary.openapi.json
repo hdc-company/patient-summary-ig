@@ -10,7 +10,7 @@
     "version": "0.1.0",
     "contact": {
       "name": "FHIR New Republic",
-      "url": "http://ig.v8-lust.net"
+      "url": "http://ig.mwnz.org"
     }
   },
   "servers": [
@@ -20,7 +20,7 @@
     }
   ],
   "externalDocs": {
-    "url": "http://ig.v8-lust.net/fsh-ig/CapabilityStatement/PatientSummary",
+    "url": "http://ig.mwnz.org/fsh-ig/CapabilityStatement/PatientSummary",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {

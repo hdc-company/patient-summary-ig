@@ -3,7 +3,7 @@ NewRepublicFHIRIG : Validation Results
 
 err = 3, warn = 4, info = 0
 $--
-Generated $--. FHIR version $-- for fsh.ig#$-- (canonical = http://ig.v8-lust.net/fsh-ig)
+Generated $--. FHIR version $-- for fsh.ig#$-- (canonical = http://ig.mwnz.org/fsh-ig)
  Build Errors : 1 / 4 / 0
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-MedicationSummary : 0 / 0 / 1
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-PatientSummary : 0 / 0 / 1
@@ -21,5 +21,5 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated\resources\ImplementationGuide-fsh.ig.json ==
 ERROR: ImplementationGuide/fsh.ig: ImplementationGuide.dependsOn[2].uri: Canonical URL 'http://hl7.org/fhir/ca/baseline/ImplementationGuide/hl7.fhir.ca.baseline' does not resolve
 == fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire.json ==
-ERROR: Questionnaire.where(url = 'https://ig.v8-lust.net/Questionnaire-MedicationRequestQuestionnaire.html'): Conformance resource C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire.json - the canonical URL (http://ig.v8-lust.net/fsh-ig/Questionnaire/MedicationRequestQuestionnaire) does not match the URL (https://ig.v8-lust.net/Questionnaire-MedicationRequestQuestionnaire.html)
-ERROR: C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire: URL Mismatch http://ig.v8-lust.net/fsh-ig/Questionnaire/MedicationRequestQuestionnaire vs https://ig.v8-lust.net/Questionnaire-MedicationRequestQuestionnaire.html
+ERROR: Questionnaire.where(url = 'https://ig.mwnz.org/Questionnaire-MedicationRequestQuestionnaire.html'): Conformance resource C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire.json - the canonical URL (http://ig.mwnz.org/fsh-ig/Questionnaire/MedicationRequestQuestionnaire) does not match the URL (https://ig.mwnz.org/Questionnaire-MedicationRequestQuestionnaire.html)
+ERROR: C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire: URL Mismatch http://ig.mwnz.org/fsh-ig/Questionnaire/MedicationRequestQuestionnaire vs https://ig.mwnz.org/Questionnaire-MedicationRequestQuestionnaire.html

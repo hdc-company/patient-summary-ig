@@ -1,163 +1,163 @@
 {
-  "date" : "Tue, 28 May, 2024 21:44:02 -0700",
+  "date" : "Tue, 28 May, 2024 22:10:21 -0700",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "\\fsh-generated\\resources\\ImplementationGuide-fsh.ig.json",
-      "size" : 2013,
+      "size" : 2007,
       "processes" : [
         {
+          "activity" : "scan",
+          "start" : 1334,
+          "length" : 1
+        },
+        {
           "activity" : "load",
-          "start" : 1353,
-          "length" : 47
+          "start" : 1335,
+          "length" : 62
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 1353,
-          "length" : 9
+          "start" : 1335,
+          "length" : 12
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1353,
-          "length" : 79
+          "start" : 1335,
+          "length" : 98
         },
         {
           "activity" : "validate",
-          "start" : 1359,
-          "length" : 985
+          "start" : 1340,
+          "length" : 969
         },
         {
           "activity" : "generate1",
-          "start" : 1365,
-          "length" : 579
+          "start" : 1346,
+          "length" : 556
         },
         {
           "activity" : "generate2",
-          "start" : 1378,
-          "length" : 127
+          "start" : 1359,
+          "length" : 154
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 1438,
+          "length" : 15
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/CapabilityStatement-MedicationSummary.json",
-      "size" : 2434,
+      "size" : 2431,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 1349,
-          "length" : 31
+          "start" : 1333,
+          "length" : 16
         },
         {
-          "activity" : "loadInfo",
-          "start" : 1353,
+          "activity" : "loadDepInfo",
+          "start" : 1334,
           "length" : 1
         },
         {
           "activity" : "load",
-          "start" : 1353,
-          "length" : 45
+          "start" : 1334,
+          "length" : 55
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1353,
-          "length" : 109
+          "start" : 1335,
+          "length" : 47
         },
         {
           "activity" : "validate",
-          "start" : 1354,
-          "length" : 5059
+          "start" : 1335,
+          "length" : 4856
         },
         {
           "activity" : "generate1",
-          "start" : 1366,
-          "length" : 375
+          "start" : 1347,
+          "length" : 364
         },
         {
           "activity" : "generate2",
-          "start" : 1379,
-          "length" : 172
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 1462,
-          "length" : 16
+          "start" : 1359,
+          "length" : 375
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/CapabilityStatement-PatientSummary.json",
-      "size" : 2399,
+      "size" : 2396,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 1349,
-          "length" : 16
+          "start" : 1333,
+          "length" : 15
         },
         {
           "activity" : "load",
-          "start" : 1353,
-          "length" : 16
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 1353,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 1353,
+          "start" : 1335,
           "length" : 47
         },
         {
+          "activity" : "generateNarratives",
+          "start" : 1335,
+          "length" : 31
+        },
+        {
           "activity" : "validate",
-          "start" : 1359,
+          "start" : 1340,
           "length" : 63
         },
         {
           "activity" : "generate1",
-          "start" : 1366,
-          "length" : 391
+          "start" : 1347,
+          "length" : 407
         },
         {
           "activity" : "generate2",
-          "start" : 1379,
-          "length" : 62
+          "start" : 1360,
+          "length" : 63
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Questionnaire-MedicationRequestQuestionnaire.json",
-      "size" : 760,
+      "size" : 757,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 1349,
-          "length" : 31
+          "start" : 1333,
+          "length" : 16
         },
         {
           "activity" : "load",
-          "start" : 1353,
-          "length" : 47
+          "start" : 1335,
+          "length" : 63
         },
         {
           "activity" : "generateNarratives",
-          "start" : 1353,
+          "start" : 1335,
           "length" : 78
         },
         {
           "activity" : "validate",
-          "start" : 1360,
+          "start" : 1341,
           "length" : 15
         },
         {
           "activity" : "generate1",
-          "start" : 1366,
-          "length" : 453
+          "start" : 1347,
+          "length" : 359
         },
         {
           "activity" : "generate2",
-          "start" : 1379,
-          "length" : 63
+          "start" : 1360,
+          "length" : 62
         }
       ]
     }
