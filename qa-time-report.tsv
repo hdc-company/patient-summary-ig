@@ -1,0 +1,4 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-fsh.ig.json	1806	-	0	0	0	0	0	0	1	79	0	0	0	0	0	0	0	1	0	0	498	120	0	0	0	0	16	0	0
+fsh-generated/resources/CapabilityStatement-ExampleCapabilityStatement.json	2217	31	0	0	1	8	0	0	0	78	0	0	0	0	0	0	0	0	0	0	437	140	0	0	0	0	0	0	0
+fsh-generated/resources/Questionnaire-MedicationRequestQuestionnaire.json	760	16	0	0	0	0	0	0	0	47	0	0	0	0	0	0	0	0	0	0	329	78	0	0	0	0	0	0	0
