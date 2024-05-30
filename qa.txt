@@ -3,7 +3,7 @@ NewRepublicFHIRIG : Validation Results
 
 err = 3, warn = 4, info = 0
 IG Publisher Version: 1.6.10
-Generated Wed May 29 00:50:57 PDT 2024. FHIR version 4.0.1 for fsh.ig#0.1.0 (canonical = http://ig.mwnz.org/fsh-ig)
+Generated Wed May 29 18:19:26 PDT 2024. FHIR version 4.0.1 for fsh.ig#0.1.0 (canonical = http://ig.mwnz.org/fsh-ig)
  Build Errors : 1 / 4 / 0
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-MedicationSummary : 0 / 0 / 1
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-PatientSummary : 0 / 0 / 1
@@ -11,7 +11,7 @@ Generated Wed May 29 00:50:57 PDT 2024. FHIR version 4.0.1 for fsh.ig#0.1.0 (can
  C:\solution\workspace\fsh-generated\resources\Questionnaire-MedicationRequestQuestionnaire : 2 / 0 / 1
 </table>
 == n/a ==
-ERROR: C:\solution\workspace\output\index.html#/html/body/div/div/div/div/div/ul/li/a at Line 186, column 147: The link 'Questionnaire-MedicationRequestQuestionnaire.yaml' for "Questionnaire-MedicationRequestQuestionnaire.yaml" cannot be resolved
+ERROR: C:\solution\workspace\output\index.html#/html/body/div/div/div/div/div/ul/li/a at Line 190, column 147: The link 'Questionnaire-MedicationRequestQuestionnaire.yaml' for "Questionnaire-MedicationRequestQuestionnaire.yaml" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
