@@ -3,7 +3,7 @@ NewRepublicFHIRIG : Validation Results
 
 err = 3, warn = 4, info = 0
 IG Publisher Version: 1.6.10
-Generated Wed May 29 18:19:26 PDT 2024. FHIR version 4.0.1 for fsh.ig#0.1.0 (canonical = http://ig.mwnz.org/fsh-ig)
+Generated Wed May 29 18:45:37 PDT 2024. FHIR version 4.0.1 for fsh.ig#0.1.0 (canonical = http://ig.mwnz.org/fsh-ig)
  Build Errors : 1 / 4 / 0
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-MedicationSummary : 0 / 0 / 1
  C:\solution\workspace\fsh-generated\resources\CapabilityStatement-PatientSummary : 0 / 0 / 1
